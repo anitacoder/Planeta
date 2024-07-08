@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  padding: 5px 20px;
+}
+
+#logo-container {
+  text-decoration: none;
+}
+
+#logo {
+  width: 50px;
+}
+
+#planeta-logo {
+  position: absolute;
+  top: 22px;
+  left: 75px;
+  color: black;
+}
+
+#header-links-wrap {
+  float: right;
+}
+
+.header-links {
+  color: black;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.header-links:hover {
+  background-color: #5e74a3;
+  color: white;
+}
+
+#planets-container {
+  background-color: rgba(0, 0, 0, .05);
+  clear: both;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+#wrap {
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+.planets {
+  margin-right: 10px;
+  margin-top: 15px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background-color: grey;
+  color:  white;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(0);
+  transition: filter .5s;
+}
+
+.planets:hover {
+  filter: grayscale(1);
+}
+
+#MERCURY {
+  background-image: url("images/mercury.jpg");
+}
+
+#VENUS {
+  background-image: url("images/venus.jpg");
+}
+
+#EARTH {
+  background-image: url("images/earth.jpg");
+}
+
+#MARS {
+  background-image: url("images/mars.jpg");
+}
+
+#JUPITER {
+  background-image: url("images/jupiter.jpg");
+}
+
+#SATURN {
+  background-image: url("images/saturn.jpg");
+}
+
+#URANUS {
+  background-image: url("images/uranus.jpg");
+}
+
+#NEPTUNE {
+  background-image: url("images/neptune.jpg");
+}
+
+footer {
+  background-color: lightgrey;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#right-footer {
+  float: right;
+}

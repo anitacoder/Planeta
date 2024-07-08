@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  padding: 5px 20px;
+}
+
+#logo-container {
+  text-decoration: none;
+}
+
+#logo {
+  width: 50px;
+}
+
+#planeta-logo {
+  position: absolute;
+  top: 22px;
+  left: 75px;
+  color: black;
+}
+
+#header-links-wrap {
+  float: right;
+}
+
+.header-links {
+  color: black;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.header-links:hover {
+  background-color: #5e74a3;
+  color: white;
+}
+
+#main-view {
+  height: 550px;
+  background-color: grey;
+  background-image: url("images/venus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+  text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+  background-color: lightgrey;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#right-footer {
+  float: right;
+}
